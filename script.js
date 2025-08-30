@@ -42,13 +42,25 @@ let text = "Javascript"
  console.log(Num3)
 
 //Generating Random Numbers
- let Randnum = Math.random(1)
- console.log(Randnum)
+let randmNum = Math.random();
+console.log(randmNum);
 
-let randomNum = Math.random() * 10 + 1;
+let randomNum = Math.floor(Math.random() * 10) + 1;
 console.log(randomNum);
 
 
+let stro = "42";
+let intNum = parseInt(stro);
+console.log(intNum); 
+console.log(typeof intNum); 
+
+let strNum = "100";
+let integerNum = parseInt(strNum);
+console.log(integerNum); 
+
+let strFloat = "3.141";
+let decimalNum = parseFloat(strFloat);
+console.log(decimalNum);
  //Generating Random Numbers
 
  let strno = 250
